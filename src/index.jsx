@@ -9,7 +9,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
   {
     path:"/",
-    element:<Home/>
+    element:<PlanPricing/>
+  },
+  {
+    path:"/home",
+    element:<PlanPricing/>
   },
   {
     path : "/planpricing",
@@ -17,11 +21,7 @@ const router = createBrowserRouter([
   },
   {
     path:"/form",
-    element:<Sakshi/>
-  },
-  {
-    path:"/registration",
-    element:<Registration/>
+    element:<PlanPricing/>
   }
  
 ])
