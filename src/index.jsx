@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom/client';
 import {createBrowserRouter,RouterProvider} from "react-router-dom";
 import './index.css';
-//import Sakshi from './views/sakshi';
+import Sakshi from './Views/AccountInfo.jsx';
 import PlanPricing from './Views/PlanPricing/PlanPricing.jsx';
 //import Registration from './views/Registration/Registration';
 
@@ -22,6 +22,10 @@ const router = createBrowserRouter([
   {
     path:"/form",
     element:<PlanPricing/>
+  },
+  {
+    path:"/account",
+    element:<Sakshi/>
   }
  
 ])
