@@ -9,10 +9,10 @@ function Header() {
     </div>
     <ul className='md:flex md:space-x-9 hidden font-semibold text-gray-900'>
       <li className='cursor-pointer hover:text-[#9e3ffd] '><Link to="/home">Home </Link></li> 
-      <li className='cursor-pointer hover:text-[#9e3ffd] '><Link to="#">Services</Link> </li>
-      <li className='cursor-pointer hover:text-[#9e3ffd] '>About</li>
-      <li className='cursor-pointer hover:text-[#9e3ffd] '>Clients</li>
-      <li className='cursor-pointer hover:text-[#9e3ffd] '>Contact</li>
+      <li className='cursor-pointer hover:text-[#9e3ffd] '><Link to="/services">Services</Link> </li>
+      <li className='cursor-pointer hover:text-[#9e3ffd] '><Link to="/about">About</Link></li>
+      <li className='cursor-pointer hover:text-[#9e3ffd] '><Link to="/about">Clients</Link></li>
+      <li className='cursor-pointer hover:text-[#9e3ffd] '><Link to="/contact">Contact</Link></li>
       <li className='cursor-pointer hover:text-[#9e3ffd] '><Link to="/planpricing">Plans & Pricing</Link></li>
       <li className='cursor-pointer hover:text-[#9e3ffd] '>Portfolio</li>
       <li className='cursor-pointer hover:text-[#9e3ffd] '>More</li>
