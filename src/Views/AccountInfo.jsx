@@ -1,10 +1,22 @@
 import React from 'react';
 import Header from "./../Components/Header/Header.jsx";
 import Footer from "./../Components/Footer/Footer.jsx";
+import Camera from "./../assets/camera.png";
 
 function Account() {
       return (<>
       <Header/>
+      <div className='relative bg-gradient-to-r from-purple-400 via-purple-500 to-purple-600 p-6 w-auto h-60 max-w-4xl mx-auto'> 
+      <img src={Camera} className='absolute h-6 left-12 mid:left-20'/>
+      <div className='flex mt-20 space-x-8 items-center mx-10 '>
+       <span className=''>
+       <img src="https://cdn-icons-png.flaticon.com/128/3749/3749784.png" className='h-30 w-30 rounded-full bg-white'/>
+       </span>
+       <span className='text-white text-xl sm:text-lg top-10 font-semibold '>
+   Sakshi Shewale
+       </span>
+      </div>
+      </div>
       <section className="flex flex-col md:flex-row">
         {/* Left Side Section */}
         <section className="mx-auto max-w-4xl p-4 w-full md:w-3/4">
@@ -88,13 +100,9 @@ function Account() {
         </section>
         
         {/* Right Side Section for Image */}
-        <section className="hidden md:block md:w-1/4">
-          <img
-            src="https://cdn-icons-png.flaticon.com/128/1370/1370907.png"
-            alt="Side Icon"
-            className="w-16 h-16 mx-auto"
-          />
-        </section>
+        <section className='fixed bottom-8 right-4 h-14 w-14 mx-12 rounded-full bg-gray-400'>
+<img src="https://cdn-icons-png.flaticon.com/128/1370/1370907.png" className='h-full w-full object-cover '/>
+          </section>
         </section>
         <Footer/>
               </>  
