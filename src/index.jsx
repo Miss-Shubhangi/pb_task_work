@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom/client';
 import {createBrowserRouter,RouterProvider} from "react-router-dom";
 import './index.css';
-//import Sakshi from './views/sakshi';
+import Sakshi from './Views/AccountInfo.jsx'
 import PlanPricing from './Views/PlanPricing/PlanPricing.jsx';
 import Home from './Views/Home/Home.jsx';
 import Services from './Views/Services/Services.jsx';
@@ -38,6 +38,10 @@ const router = createBrowserRouter([
   {
     path:"/contact",
     element:<Contact/>
+  },
+  {
+    path:"/account",
+    element:<Sakshi/>
   }
 
  
